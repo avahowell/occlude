@@ -11,6 +11,7 @@ Occlude makes the following implementation choices:
 * `H:` SHA3 (Keccak)
 * Group: Ristretto 
 * `H'` (hash to curve): Elligator2
+* Symmetric PRF: Keyed Blake2B
 
 All group operations, including hashing to the curve, are constant-time: they run in time dependent only on the length of secret data, not the values of secret data.
 
